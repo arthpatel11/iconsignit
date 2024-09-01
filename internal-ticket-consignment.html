@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en" data-layout="vertical">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iconsignit Internal Ticket Consignment</title>
+
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <section class="sidebar">
+        <div class="toggle-btn"><i class="far fa-times"></i></div>
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <ul class="sidebarlist">
+            <li>
+                <a href="index.html"><img src="images/sidebar-ioc-1.svg" alt=""><span>Dashboard</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-2.svg" alt=""><span>Menu</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-3.svg" alt=""><span>Employees</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-4.svg" alt=""><span>Departments</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-5.svg" alt=""><span>User Actions</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false"><img src="images/sidebar-ioc-6.svg" alt=""><span>Administration<i class="far fa-chevron-down"></i></span></a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-7.svg" alt=""><span>Customer<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="list-customer.html">Customer List</a></li>
+                    <li><a class="dropdown-item" href="edit-customer.html">Edit Customer</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-8.svg" alt=""><span>Zone<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-9.svg" alt=""><span>Services<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-10.svg" alt=""><span>Rates<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">Carrier Rate Card</a></li>
+                    <li><a class="dropdown-item" href="customer-rates-card.html">Customer Rate Card</a></li>
+                    <li><a class="dropdown-item" href="#">Carrier Fees</a></li>
+                    <li><a class="dropdown-item" href="#">Customer Fees</a></li>
+                    <li><a class="dropdown-item" href="#">Uprate</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-11.svg" alt=""><span>Commission<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-12.svg" alt=""><span>Accounting<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="carrier.html"><img src="images/sidebar-ioc-13.svg" alt=""><span>Carrier</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow active" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-14.svg" alt=""><span>Ticket<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu show" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="ticket.html">Ticket</a></li>
+                    <li><a class="dropdown-item active" href="internal-ticket.html">Internal Ticket</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-15.svg" alt=""><span>Customer Services<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-16.svg" alt=""><span>Quotes<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="customer-quotes.html">Customer Quotes</a></li>
+                    <li><a class="dropdown-item" href="#">Manual Quotes</a></li>
+                    <li><a class="dropdown-item" href="#">New Business quotes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="consignments.html"><img src="images/sidebar-ioc-17.svg" alt=""><span>Consignments</span></a>
+            </li>
+            <li>
+                <a href="cannote.html"><img src="images/sidebar-ioc-18.svg" alt=""><span>Connotes</span></a>
+            </li>
+            <li>
+                <a href="manifest-connotes.html"><img src="images/sidebar-ioc-19.svg" alt=""><span>Manifest Connotes</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-20.svg" alt=""><span>Scheduling Tasks</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-21.svg" alt=""><span>Reports<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-22.svg" alt=""><span>Archives<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-23.svg" alt=""><span>Item Type</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-24.svg" alt=""><span>Address Book<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="carrier-invoice.html"><img src="images/sidebar-ioc-25.svg" alt=""><span>Carrier Invoice</span></a>
+            </li>
+            <li>
+                <a href="customer-invoice.html"><img src="images/sidebar-ioc-26.svg" alt=""><span>Customer Invoice</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-27.svg" alt=""><span>Carrier Service</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-28.svg" alt=""><span>Setting<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-29.svg" alt=""><span>Standard Box Size</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-30.svg" alt=""><span>Updates</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-31.svg" alt=""><span>Backend Data</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-32.svg" alt=""><span>Logout</span></a>
+            </li>
+        </ul>
+    </section>
+    <section class="signit-main">
+        <div class="header">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <div class="toggle-serch-div">
+                <div class="toggle-btn"><img src="images/sidebar-toggle-ioc.svg" alt=""></div>
+                <div class="search-group">
+                    <i class="far fa-search"></i>
+                    <input type="text" placeholder="Search here....">
+                </div>
+            </div>
+            <div class="noti-profil-div">
+                <div class="noti-main">
+                    <a href=""><img src="images/chat-ioc.svg" alt=""></a>
+                    <a href=""><img src="images/noti-ioc.svg" alt=""></a>
+                </div>
+                <a href="" class="profil-main"><img src="images/user-profil-1.png" alt=""></a>
+            </div>
+        </div>
+        <div class="signit-body">
+            <div class="comn-title">
+                <h1 class="title-text">Internal Ticket Consignment</h1>
+                <p>Dashboard / Internal Ticket / <span>Internal Ticket Consignment</span></p>
+            </div>
+            <div class="edit-cust-tabs">
+                <a href="#" class="list-top-btn active"><i class="fal fa-plus"></i>Add New</a>
+            </div>
+            <div class="consignments-assign-reminder">
+                <div class="consignment-assign-row">
+                    <div class="comn-form-group">
+                        <label class="form-label">Assigned to</label>
+                        <select class="form-select">
+                        <option selected>Unassigned</option>
+                        <option value="1">Assigned</option>
+                    </select>
+                    </div>
+                    <div class="comn-form-group">
+                        <label class="form-label">Internal Status</label>
+                        <select class="form-select">
+                        <option selected>New</option>
+                        <option value="1">Old</option>
+                    </select>
+                    </div>
+                    <button class="update-btn">Update</button>
+                </div>
+                <div class="consignment-reminder-row">
+                    <div class="comn-form-group">
+                        <label class="form-label">Reminder</label>
+                        <input type="text" class="form-control comn-datepicker">
+                    </div>
+                    <button class="rem-disable-btn"><i class="far fa-times-circle"></i></button>
+                    <button class="rem-set-btn"><i class="far fa-alarm-clock"></i></button>
+                </div>
+            </div>
+            <div class="list-main">
+                <div class="list-main-head">
+                    <h2>Ticket Detail</h2>
+                </div>
+                <div class="consign-detail-row">
+                    <div class="consign-detail-column">
+                        <div class="consign-detail-box color-box-1">
+                            <h5>Connote Detail</h5>
+                            <ul>
+                                <li>Connote No. : <span class="primary-color">AOE936609S</span></li>
+                                <li>Manifest Date : <span>17/11/2022</span></li>
+                                <li>Carrier Name : <span>Allied Express</span></li>
+                                <li>Service Name : <span>Allied Road</span></li>
+                                <li>Charge Account : <span>kettah</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="consign-detail-column">
+                        <div class="consign-detail-box color-box-2">
+                            <h5>Sender Detail</h5>
+                            <ul>
+                                <li>Name : <span>No Result Found</span></li>
+                                <li>Address Line1 : <span>54 Spence rd</span></li>
+                                <li>Address Line2 : <span>Allied Express</span></li>
+                                <li>Postcode : <span>4012</span></li>
+                                <li>Suburb : <span class="text-uppercase">WAVELL HEIGHTS</span></li>
+                                <li>Phone : <span>0409168320</span></li>
+                                <li>Contact Name : <span>Brian Kerr</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="consign-detail-column">
+                        <div class="consign-detail-box color-box-3">
+                            <h5>Receiver Detail</h5>
+                            <ul>
+                                <li>Connote No. :<span>Sam</span></li>
+                                <li>Address Line1 : <span>5/20 Smallwood Pl</span></li>
+                                <li>Address Line2 : <span>Allied Express</span></li>
+                                <li>Postcode : <span>4172</span></li>
+                                <li>Suburb : <span class="text-uppercase">murarrie</span></li>
+                                <li>Phone : <span>0409168320</span></li>
+                                <li>Contact Name : <span>Brian Kerr</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="consign-btn-row"><a href="#" class="comn-btn">View Detailed Tracing</a></div>
+
+                <div class="list-main-body">
+                    <aside class="list-result-div">Results
+                        <select class="form-select">
+                            <option selected>10</option>
+                            <option>20</option>
+                            <option>30</option>
+                        </select> Of 30 Entries
+                    </aside>
+                    <div class="comn-table table-responsive consignment-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#CODE</th>
+                                    <th>DESCRIPTION</th>
+                                    <th>QTY</th>
+                                    <th>LENGTH(CM)</th>
+                                    <th>WIDTH(CM)</th>
+                                    <th>HEIGHT(CM)</th>
+                                    <th>WEIGHT(KG)</th>
+                                    <th>TOT.WGT(KG)</th>
+                                    <th>TOT.VOL(M3)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="primary-color">#1Code</td>
+                                    <td>Cartoon</td>
+                                    <td>02</td>
+                                    <td>60</td>
+                                    <td>40</td>
+                                    <td>60</td>
+                                    <td>60</td>
+                                    <td>10</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#2Code</td>
+                                    <td>Cartoon</td>
+                                    <td>03</td>
+                                    <td>50</td>
+                                    <td>50</td>
+                                    <td>50</td>
+                                    <td>40</td>
+                                    <td>10</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#3Code</td>
+                                    <td>Cartoon</td>
+                                    <td>01</td>
+                                    <td>40</td>
+                                    <td>20</td>
+                                    <td>60</td>
+                                    <td>20</td>
+                                    <td>20</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#4Code</td>
+                                    <td>Cartoon</td>
+                                    <td>02</td>
+                                    <td>50</td>
+                                    <td>30</td>
+                                    <td>40</td>
+                                    <td>30</td>
+                                    <td>30</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#5Code</td>
+                                    <td>Cartoon</td>
+                                    <td>03</td>
+                                    <td>60</td>
+                                    <td>40</td>
+                                    <td>60</td>
+                                    <td>30</td>
+                                    <td>40</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#6Code</td>
+                                    <td>Cartoon</td>
+                                    <td>01</td>
+                                    <td>50</td>
+                                    <td>20</td>
+                                    <td>40</td>
+                                    <td>40</td>
+                                    <td>50</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#7Code</td>
+                                    <td>Cartoon</td>
+                                    <td>06</td>
+                                    <td>40</td>
+                                    <td>10</td>
+                                    <td>50</td>
+                                    <td>50</td>
+                                    <td>60</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#8Code</td>
+                                    <td>Cartoon</td>
+                                    <td>04</td>
+                                    <td>30</td>
+                                    <td>20</td>
+                                    <td>30</td>
+                                    <td>60</td>
+                                    <td>40</td>
+                                    <td>0.423</td>
+                                </tr>
+                                <tr>
+                                    <td class="primary-color">#9Code</td>
+                                    <td>Cartoon</td>
+                                    <td>03</td>
+                                    <td>40</td>
+                                    <td>60</td>
+                                    <td>50</td>
+                                    <td>60</td>
+                                    <td>30</td>
+                                    <td>0.423</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="comn-chatbox">
+                        <div class="comn-chat-head">
+                            <div class="chat-head-btn-row">
+                                <button class="comn-btn"><i class="far fa-plus"></i>email to carrier</button>
+                                <button class="comn-btn"><i class="far fa-plus"></i>email to Customer</button>
+                            </div>
+                            <div class="chat-head-checkbox-file-row">
+                                <div class="chat-head-checkbox">
+                                    <label for="ReplyRequired"><input type="checkbox" class="table-check" id="ReplyRequired">Reply Required</label>
+                                    <label for="SendTranscriptonClose"><input type="checkbox" class="table-check" id="SendTranscriptonClose">Send Transcript on Close</label>
+                                </div>
+                                <div class="choose-file-box">
+                                    <input type="file" placeholder="No file choosen">
+                                    <select class="form-select">
+                                        <option>Require ETA</option>
+                                        <option>List 1</option>
+                                        <option>List 2</option>
+                                        <option>List 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comn-chat-body">
+                            <div class="chat-body-box">
+                                <p>I need ETA</p>
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 24-01-2023, 18 : 06 : 10</li>
+                                    <li><i class="fas fa-user"></i> Username</li>
+                                </ul>
+                            </div>
+                            <div class="chat-body-box">
+                                <p>I need help ! as soon as possible. I need help ! as soon as possible. </p>
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 24-01-2023, 18 : 06 : 10</li>
+                                    <li><i class="fas fa-user"></i> Username</li>
+                                </ul>
+                            </div>
+                            <div class="chat-body-box chat-body-box-2">
+                                <p>yes, sure we are here to help you. yes, sure we are here to help you.</p>
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 24-01-2023, 18 : 06 : 10</li>
+                                    <li><i class="fas fa-user"></i> Username</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comn-chat-footer">
+                            <input type="text" placeholder="Enter text here">
+                            <div class="chat-footer-btn-row">
+                                <button class="chat-save-btn">Save</button>
+                                <button class="chat-send-btn">Send</button>
+                                <button class="chat-close-btn">Close Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-main consign-list-main">
+                <div class="list-main-head">
+                    <h2>Internal Ticket</h2>
+                </div>
+                <div class="consign-detail-row consign-detail-row-2">
+                    <div class="consign-detail-column">
+                        <div class="consign-detail-box color-box-1">
+                            <ul>
+                                <li>Carrier Name : <span>Allied Express</span></li>
+                                <li>Service Name : <span>Allied Road</span></li>
+                                <li>Charge Account : <span>kettah</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-main-body">
+                    <div class="comn-chatbox mt-0">
+                        <div class="comn-chat-body">
+                            <div class="chat-body-box">
+                                <p>I need ETA</p>
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 24-01-2023, 18 : 06 : 10</li>
+                                    <li><i class="fas fa-user"></i> Username</li>
+                                </ul>
+                            </div>
+                            <div class="chat-body-box">
+                                <p>I need help ! as soon as possible. I need help ! as soon as possible. </p>
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 24-01-2023, 18 : 06 : 10</li>
+                                    <li><i class="fas fa-user"></i> Username</li>
+                                </ul>
+                            </div>
+                            <div class="chat-body-box chat-body-box-2">
+                                <p>yes, sure we are here to help you. yes, sure we are here to help you.</p>
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 24-01-2023, 18 : 06 : 10</li>
+                                    <li><i class="fas fa-user"></i> Username</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comn-chat-footer">
+                            <input type="text" placeholder="Enter text here">
+                            <div class="chat-footer-btn-row">
+                                <button class="chat-save-btn">Save</button>
+                                <button class="chat-close-btn">Close Internal Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/apexcharts.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

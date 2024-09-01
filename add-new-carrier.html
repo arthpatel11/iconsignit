@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iconsignit Edit Customer</title>
+
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <section class="sidebar">
+        <div class="toggle-btn"><i class="far fa-times"></i></div>
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <ul class="sidebarlist">
+            <li>
+                <a href="index.html"><img src="images/sidebar-ioc-1.svg" alt=""><span>Dashboard</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-2.svg" alt=""><span>Menu</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-3.svg" alt=""><span>Employees</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-4.svg" alt=""><span>Departments</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-5.svg" alt=""><span>User Actions</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false"><img src="images/sidebar-ioc-6.svg" alt=""><span>Administration<i class="far fa-chevron-down"></i></span></a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-7.svg" alt=""><span>Customer<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="list-customer.html">Customer List</a></li>
+                    <li><a class="dropdown-item" href="edit-customer.html">Edit Customer</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-8.svg" alt=""><span>Zone<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-9.svg" alt=""><span>Services<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-10.svg" alt=""><span>Rates<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">Carrier Rate Card</a></li>
+                    <li><a class="dropdown-item" href="customer-rates-card.html">Customer Rate Card</a></li>
+                    <li><a class="dropdown-item" href="#">Carrier Fees</a></li>
+                    <li><a class="dropdown-item" href="#">Customer Fees</a></li>
+                    <li><a class="dropdown-item" href="#">Uprate</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-11.svg" alt=""><span>Commission<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-12.svg" alt=""><span>Accounting<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="carrier.html" class="active"><img src="images/sidebar-ioc-13.svg" alt=""><span>Carrier</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-14.svg" alt=""><span>Ticket<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="ticket.html">Ticket</a></li>
+                    <li><a class="dropdown-item" href="internal-ticket.html">Internal Ticket</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-15.svg" alt=""><span>Customer Services<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-16.svg" alt=""><span>Quotes<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="customer-quotes.html">Customer Quotes</a></li>
+                    <li><a class="dropdown-item" href="#">Manual Quotes</a></li>
+                    <li><a class="dropdown-item" href="#">New Business quotes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="consignments.html"><img src="images/sidebar-ioc-17.svg" alt=""><span>Consignments</span></a>
+            </li>
+            <li>
+                <a href="cannote.html"><img src="images/sidebar-ioc-18.svg" alt=""><span>Connotes</span></a>
+            </li>
+            <li>
+                <a href="manifest-connotes.html"><img src="images/sidebar-ioc-19.svg" alt=""><span>Manifest Connotes</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-20.svg" alt=""><span>Scheduling Tasks</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-21.svg" alt=""><span>Reports<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-22.svg" alt=""><span>Archives<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-23.svg" alt=""><span>Item Type</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-24.svg" alt=""><span>Address Book<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="carrier-invoice.html"><img src="images/sidebar-ioc-25.svg" alt=""><span>Carrier Invoice</span></a>
+            </li>
+            <li>
+                <a href="customer-invoice.html"><img src="images/sidebar-ioc-26.svg" alt=""><span>Customer Invoice</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-27.svg" alt=""><span>Carrier Service</span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-arrow" role="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    <img src="images/sidebar-ioc-28.svg" alt=""><span>Setting<i class="far fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">list 1</a></li>
+                    <li><a class="dropdown-item" href="#">list 2</a></li>
+                    <li><a class="dropdown-item" href="#">list 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-29.svg" alt=""><span>Standard Box Size</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-30.svg" alt=""><span>Updates</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-31.svg" alt=""><span>Backend Data</span></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/sidebar-ioc-32.svg" alt=""><span>Logout</span></a>
+            </li>
+        </ul>
+    </section>
+    <section class="signit-main">
+        <div class="header">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <div class="toggle-serch-div">
+                <div class="toggle-btn"><img src="images/sidebar-toggle-ioc.svg" alt=""></div>
+                <div class="search-group">
+                    <i class="far fa-search"></i>
+                    <input type="text" placeholder="Search here....">
+                </div>
+            </div>
+            <div class="noti-profil-div">
+                <div class="noti-main">
+                    <a href=""><img src="images/chat-ioc.svg" alt=""></a>
+                    <a href=""><img src="images/noti-ioc.svg" alt=""></a>
+                </div>
+                <a href="" class="profil-main"><img src="images/user-profil-1.png" alt=""></a>
+            </div>
+        </div>
+        <div class="signit-body">
+            <div class="comn-title">
+                <h1 class="title-text">Carrier</h1>
+                <p>Dashboard / Carrier / <span>Add Carrier</span>
+                </p>
+            </div>
+            <div class="edit-customer-inner">
+                <ul class="nav nav-tabs edit-cust-tabs add-carrier-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="Contact-tab" data-bs-toggle="tab" data-bs-target="#Contact" type="button" role="tab" aria-controls="Contact" aria-selected="true">Contact</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Services-tab" data-bs-toggle="tab" data-bs-target="#Services" type="button" role="tab" aria-controls="Services" aria-selected="false">Services </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Carrier-Settings-tab" data-bs-toggle="tab" data-bs-target="#Carrier-Settings" type="button" role="tab" aria-controls="Carrier-Settings" aria-selected="false">Carrier Settings</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Zones-tab" data-bs-toggle="tab" data-bs-target="#Zones" type="button" role="tab" aria-controls="Zones" aria-selected="false">Zones</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Rates-tab" data-bs-toggle="tab" data-bs-target="#Rates" type="button" role="tab" aria-controls="Rates" aria-selected="false">Rates</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Fees-tab" data-bs-toggle="tab" data-bs-target="#Fees" type="button" role="tab" aria-controls="Fees" aria-selected="false">Fees</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Service-Queries-tab" data-bs-toggle="tab" data-bs-target="#Service-Queries" type="button" role="tab" aria-controls="Service-Queries" aria-selected="false">Service Queries</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Invoices-tab" data-bs-toggle="tab" data-bs-target="#Invoices" type="button" role="tab" aria-controls="Invoices" aria-selected="false">Invoices</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Invoice-upload-tab" data-bs-toggle="tab" data-bs-target="#Invoice-upload" type="button" role="tab" aria-controls="Invoice-upload" aria-selected="false">Invoice upload</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Reconcilliation-tab" data-bs-toggle="tab" data-bs-target="#Reconcilliation" type="button" role="tab" aria-controls="Reconcilliation" aria-selected="false">Reconcilliation</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Carrier-Documents-tab" data-bs-toggle="tab" data-bs-target="#Carrier-Documents" type="button" role="tab" aria-controls="Carrier-Documents" aria-selected="false">Carrier Documents</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Credit-Request-tab" data-bs-toggle="tab" data-bs-target="#Credit-Request" type="button" role="tab" aria-controls="Credit-Request" aria-selected="false">Credit Request</button>
+                    </li>
+                </ul>
+                <div class="tab-content edit-cust-content add-new-carrier-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="Contact" role="tabpanel" aria-labelledby="Contact-tab">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Carrier Information<span></span></button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Carrier Name*</label>
+                                                        <input type="email" class="form-control" id="invoiceemail" placeholder="Carrier Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Bank Account Name</label>
+                                                        <input type="text" class="form-control" placeholder="Bank Account Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">ABN*</label>
+                                                        <input type="text" class="form-control" placeholder="ABN">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">date</label>
+                                                        <input type="text" placeholder="13/12/2022" class="form-control comn-datetimepicker">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Bank Account Number</label>
+                                                        <input type="number" class="form-control" placeholder="Bank Account Number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">BSB</label>
+                                                        <input type="text" class="form-control" placeholder="BSB">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Payment Terms</label>
+                                                        <select class="form-select">
+                                                    <option selected>Payment Terms</option>
+                                                    <option value="1">UPI</option>
+                                                    <option value="2">Credit Card</option>
+                                                    <option value="3">Net Banking</option>
+                                                  </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="comn-btn save-next-btn">Save and Continue</button>
+                    </div>
+                    <div class="tab-pane fade" id="Services" role="tabpanel" aria-labelledby="Services-tab">
+                        <div class="accordion carrier-services-accordion" id="ServicesaccordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="servicesheadingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#servicescollapseOne" aria-expanded="true" aria-controls="servicescollapseOne">Service Detail<span></span></button>
+                                </h2>
+                                <div id="servicescollapseOne" class="accordion-collapse collapse show" aria-labelledby="servicesheadingOne" data-bs-parent="#ServicesaccordionExample">
+                                    <div class="accordion-body">
+                                        <aside class="add-new-label"><span>Carrier Service</span></aside>
+                                        <form>
+                                            <div class="carrier-service-row">
+                                                <div class="comn-form-group">
+                                                    <label class="form-label">Service Name</label>
+                                                    <input type="email" class="form-control" placeholder="Service Name">
+                                                </div>
+                                                <div class="comn-form-group">
+                                                    <label class="form-label">Service Code</label>
+                                                    <input type="text" class="form-control" placeholder="Service Code">
+                                                </div>
+                                                <div class="comn-form-group">
+                                                    <label class="form-label">Web Service</label>
+                                                    <input type="text" class="form-control" placeholder="Web Service">
+                                                </div>
+                                                <div class="comn-form-group">
+                                                    <label class="form-label">Web Service Code</label>
+                                                    <input type="text" class="form-control" placeholder="Web Service Code">
+                                                </div>
+                                                <div class="carrier-delete-slide-btns">
+                                                    <button type="button" class="comn-delete-btn"><i data-feather="trash"></i></button>
+                                                    <button type="button" class="slide-btn"><i class="fal fa-chevron-down"></i></button>
+                                                </div>
+                                            </div>
+                                            <div class="carrier-slide-row">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="comn-form-group">
+                                                            <label class="form-label">Description</label>
+                                                            <input type="text" class="form-control" placeholder="Service Description">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="comn-form-group">
+                                                            <label class="form-label">The Following Conditions Exist</label>
+                                                            <div class="form-control carrier-label">
+                                                                <label for="dgs"><input type="checkbox" class="table-check" id="dgs" checked>DGs Is Ok</label>
+                                                                <label for="remote"><input type="checkbox" class="table-check" id="remote" checked>Remote Area Is Ok</label>
+                                                                <label for="Residential"><input type="checkbox" class="table-check" id="Residential">Residential Is Ok</label>
+                                                                <label for="Tailgate"><input type="checkbox" class="table-check" id="Tailgate">Tailgate Is Ok</label>
+                                                                <label for="Minesite"><input type="checkbox" class="table-check" id="Minesite">Minesite Is Ok</label>
+                                                                <label for="PO-Box"><input type="checkbox" class="table-check" id="PO-Box">PO Box Is Ok</label>
+                                                                <label for="Manually"><input type="checkbox" class="table-check" id="Manually">Manually Handled Freight</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <aside class="add-new-label"><span>Range Conditions</span></aside>
+                                                        <div class="range-row">
+                                                            <div class="range-min-max">
+                                                                <aside>Minimum</aside>
+                                                                <aside>Maximum</aside>
+                                                            </div>
+                                                            <div class="range-service-detail">
+                                                                <div class="range-box">
+                                                                    <label>Any Dimension</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Charge Weight</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Insurance Value</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Freight Change</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Net Charge</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <aside class="add-new-label"><span>Range Conditions</span></aside>
+                                                        <div class="carrier-radio-check">
+                                                            <div class="carrier-label">
+                                                                <label for="Apply"><input type="checkbox" class="table-check" id="Apply" checked>Apply Item Conditions</label>
+                                                                <label for="Palletised"><input type="checkbox" class="table-check" id="Palletised" checked>Is Palletised</label>
+                                                                <label for="IsNot"><input type="checkbox" class="table-check" id="IsNot">Is Not Palletised</label>
+                                                            </div>
+                                                            <div class="carrier-radio-row">
+                                                                <label for="ExclusiveRange"><input type="radio" name="carrier-radio" id="ExclusiveRange" checked>Exclusive Range</label>
+                                                                <label for="InclusiveRange"><input type="radio" name="carrier-radio" id="InclusiveRange">Inclusive Range</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="range-row">
+                                                            <div class="range-min-max">
+                                                                <aside>Minimum</aside>
+                                                                <aside>Maximum</aside>
+                                                            </div>
+                                                            <div class="range-service-detail range-service-detail-2">
+                                                                <div class="range-box">
+                                                                    <label>Length</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Width</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Height</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Base Diagonal</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Volume</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                                <div class="range-box">
+                                                                    <label>Weight</label>
+                                                                    <p>-1</p>
+                                                                    <p>99999999.99</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="add-service-btn"><a href="">Add New Service</a></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="comn-btn save-next-btn">Save and Continue</button>
+                        <button class="comn-btn save-next-btn">Next</button>
+                        <button class="comn-btn comn-btn-2 back-carrier-btn">Back</button>
+                        <button class="comn-btn comn-btn-3">Cancle</button>
+                    </div>
+                    <div class="tab-pane fade" id="Carrier-Settings" role="tabpanel" aria-labelledby="Carrier-Settings-tab">
+                        <div class="accordion " id="ConfigurationaccordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="ConfigurationheadingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ConfigurationcollapseOne" aria-expanded="true" aria-controls="ConfigurationcollapseOne">Manifest Configuration<span></span></button>
+                                </h2>
+                                <div id="ConfigurationcollapseOne" class="accordion-collapse collapse show" aria-labelledby="ConfigurationheadingOne" data-bs-parent="#ConfigurationaccordionExample">
+                                    <div class="accordion-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Connote Template</label>
+                                                        <select class="form-select">
+                                                            <option selected>Connote Template</option>
+                                                            <option value="1">option 1</option>
+                                                            <option value="2">option 2</option>
+                                                            <option value="3">option 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Carrier API Template</label>
+                                                        <select class="form-select">
+                                                            <option selected>Carrier API Template</option>
+                                                            <option value="1">option 1</option>
+                                                            <option value="2">option 2</option>
+                                                            <option value="3">option 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Label Template</label>
+                                                        <select class="form-select">
+                                                            <option selected>Label Template</option>
+                                                            <option value="1">option 1</option>
+                                                            <option value="2">option 2</option>
+                                                            <option value="3">option 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Message Sender Name</label>
+                                                        <input type="text" class="form-control" placeholder="Message Sender Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Manifest Template</label>
+                                                        <select class="form-select">
+                                                            <option selected>Manifest Template</option>
+                                                            <option value="1">option 1</option>
+                                                            <option value="2">option 2</option>
+                                                            <option value="3">option 3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Business Unit code</label>
+                                                        <input type="text" class="form-control" placeholder="Business Unit code">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <div class="comn-form-group">
+                                                                <label class="form-label">Auto Manifest Start At Times</label>
+                                                                <input type="text" class="form-control" placeholder="Start At">
+                                                            </div>
+                                                            <div class="comn-form-group">
+                                                                <label class="form-label">Manifest Message</label>
+                                                                <input type="text" class="form-control" placeholder="Manifest Message">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-8">
+                                                            <div class="carrier-label setting-checkbox">
+                                                                <label for="APIBase"><input type="checkbox" class="table-check" id="APIBase" checked>Is Carrier API Base</label>
+                                                                <label for="Allow"><input type="checkbox" class="table-check" id="Allow" checked>Allow Auto Manifest</label>
+                                                                <label for="AllowCharge"><input type="checkbox" class="table-check" id="AllowCharge">Allow Charge 3rd Party Account</label>
+                                                                <label for="Continue"><input type="checkbox" class="table-check" id="Continue" checked>Hide ‘Continue’</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="ConfigurationheadingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ConfigurationcollapseTwo" aria-expanded="true" aria-controls="ConfigurationcollapseTwo">Tracking Configuration<span></span></button>
+                                </h2>
+                                <div id="ConfigurationcollapseTwo" class="accordion-collapse collapse show" aria-labelledby="ConfigurationheadingTwo" data-bs-parent="#ConfigurationaccordionExample">
+                                    <div class="accordion-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Connote Template</label>
+                                                        <input type="text" class="form-control" placeholder="API Username">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Tracking API Password</label>
+                                                        <input type="text" class="form-control" placeholder="API Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="ConfigurationheadingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ConfigurationcollapseThree" aria-expanded="true" aria-controls="ConfigurationcollapseThree">Booking Manifest<span></span></button>
+                                </h2>
+                                <div id="ConfigurationcollapseThree" class="accordion-collapse collapse show" aria-labelledby="ConfigurationheadingThree" data-bs-parent="#ConfigurationaccordionExample">
+                                    <div class="accordion-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Account Number</label>
+                                                        <input type="text" class="form-control" placeholder="Account Number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Booking Replacement Email</label>
+                                                        <input type="text" class="form-control" placeholder="Booking Replacement Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">CC Email</label>
+                                                        <input type="email" class="form-control" placeholder="CC Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">API User Name</label>
+                                                        <input type="text" class="form-control" placeholder="API User Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Booking URL</label>
+                                                        <input type="text" class="form-control" placeholder="Booking URL">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Email Subject</label>
+                                                        <input type="text" class="form-control" placeholder="Email Subject">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">API Password</label>
+                                                        <input type="text" class="form-control" placeholder="API Password">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Email</label>
+                                                        <input type="email" class="form-control" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Email booking error To</label>
+                                                        <input type="text" class="form-control" placeholder="Email booking error To">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="carrier-label pb-3 pb-md-0 p-0 d-flex justify-content-end">
+                                                        <label for="emailerror" class="m-0"><input type="checkbox" class="table-check" id="emailerror">Is Email booking error</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="ConfigurationheadingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ConfigurationcollapseFour" aria-expanded="true" aria-controls="ConfigurationcollapseFour">Carrier Transfer Settings<span></span></button>
+                                </h2>
+                                <div id="ConfigurationcollapseFour" class="accordion-collapse collapse show" aria-labelledby="ConfigurationheadingFour" data-bs-parent="#ConfigurationaccordionExample">
+                                    <div class="accordion-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Method</label>
+                                                        <select class="form-select">
+                                                            <option selected>POST</option>
+                                                            <option value="1">GET</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Username</label>
+                                                        <input type="text" class="form-control" placeholder="Username">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Password</label>
+                                                        <input type="text" class="form-control" placeholder="Password">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Server</label>
+                                                        <input type="text" class="form-control" placeholder="Server">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Port</label>
+                                                        <input type="text" class="form-control" placeholder="Port">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Page</label>
+                                                        <input type="text" class="form-control" placeholder="Page">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="comn-form-group">
+                                                        <label class="form-label">Mime Type</label>
+                                                        <input type="text" class="form-control" placeholder="Mime Type">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="comn-btn save-next-btn">Save and Continue</button>
+                        <button class="comn-btn save-next-btn">Next</button>
+                        <button class="comn-btn comn-btn-2 back-carrier-btn">Back</button>
+                        <button class="comn-btn comn-btn-3">Cancle</button>
+                    </div>
+                    <div class="tab-pane fade" id="Zones" role="tabpanel" aria-labelledby="Zones-tab">
+                        <div class="carrier-zone-row">
+                            <div class="add-new-btn-div">
+                                <button>Add New</button>
+                                <button>Import Zone</button>
+                            </div>
+                            <div class="next-cancel-div">
+                                <button class="comn-btn save-next-btn">Next</button>
+                                <button class="comn-btn comn-btn-3">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Rates" role="tabpanel" aria-labelledby="Rates-tab">...</div>
+                    <div class="tab-pane fade" id="Fees" role="tabpanel" aria-labelledby="Fees-tab">...</div>
+                    <div class="tab-pane fade" id="Service-Queries" role="tabpanel" aria-labelledby="Service-Queries-tab">...</div>
+                    <div class="tab-pane fade" id="Invoices" role="tabpanel" aria-labelledby="Invoices-tab">...</div>
+                    <div class="tab-pane fade" id="Invoice-upload" role="tabpanel" aria-labelledby="Invoice-upload-tab">...</div>
+                    <div class="tab-pane fade" id="Reconcilliation" role="tabpanel" aria-labelledby="Reconcilliation-tab">...</div>
+                    <div class="tab-pane fade" id="Carrier-Documents" role="tabpanel" aria-labelledby="Carrier-Documents-tab">...</div>
+                    <div class="tab-pane fade" id="Credit-Request" role="tabpanel" aria-labelledby="Credit-Request-tab">...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-ui-timepicker-addon.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/apexcharts.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1279 @@
+@media only screen and (min-width:1920px) {}
+
+@media only screen and (min-width:1600px) and (max-width:1919px) {
+    .range-box label {
+        margin-left: 15px;
+    }
+    .range-box p {
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (min-width:1400px) and (max-width:1599px) {
+    .range-box label {
+        margin-left: 15px;
+    }
+    .range-box p {
+        padding-left: 15px;
+    }
+    .choose-file-box input {
+        min-width: auto;
+        width: 250px;
+        font-size: 12px;
+    }
+    .choose-file-box input::file-selector-button {
+        padding: 9px 10px;
+        margin-right: 10px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .choose-file-box .form-select {
+        width: 150px;
+        font-size: 12px;
+    }
+    .chat-head-checkbox label {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+    .chat-head-checkbox label input {
+        margin-right: 5px;
+    }
+    .chat-head-btn-row .comn-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    .add-quote-check-radio {
+        gap: 10px;
+    }
+    .carrier-radio-row {
+        padding: 8px 10px;
+    }
+    .add-quote-list-padding-left {
+        padding: 0px 0px 0px 20px;
+    }
+    .add-quote-list-padding-right {
+        padding: 0px 20px 0px 0px;
+    }
+    .add-quote-column .carrier-radio-row label input {
+        margin-right: 5px;
+    }
+    .quotes-yes-no-group {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .range-box label {
+        margin-left: 15px;
+    }
+    .range-box p {
+        padding-left: 15px;
+    }
+    .comn-form-group .form-label {
+        margin-left: 15px;
+    }
+    .edit-cust-content .accordion-body {
+        padding: 50px 30px 20px;
+    }
+    .add-service-btn {
+        margin: 20px -30px;
+    }
+    .ticket-status-detail {
+        width: calc(100% - 180px);
+    }
+    .ticket-status-buttons {
+        width: 180px;
+    }
+    .ticket-result-status-label .list-result-div {
+        min-width: 300px;
+    }
+    .ticket-table table th {
+        min-width: 180px;
+    }
+    .internal-ticket-table th {
+        min-width: 165px;
+    }
+    .consignments-assign-reminder,
+    .comn-chat-head {
+        flex-wrap: wrap;
+    }
+    .consignment-reminder-row {
+        margin-top: 15px;
+    }
+    .chat-head-checkbox-file-row {
+        margin-top: 10px;
+    }
+    .carrier-invoice-list-body {
+        padding: 30px 35px;
+    }
+    .manual-invoice-radio {
+        margin-right: 20px;
+    }
+    .manual-invoice-radio label {
+        font-size: 12px;
+    }
+    .add-quote-check-radio {
+        gap: 10px;
+    }
+    .carrier-radio-row {
+        padding: 8px 10px;
+    }
+    .add-quote-list-padding-left {
+        padding: 0px 0px 0px 20px;
+    }
+    .add-quote-list-padding-right {
+        padding: 0px 20px 0px 0px;
+    }
+    .add-quote-column .carrier-radio-row label input {
+        margin-right: 5px;
+        width: 13px;
+        height: 13px;
+    }
+    .quotes-yes-no-group {
+        padding: 0px 0px;
+    }
+    .add-quote-column .carrier-radio-row label {
+        font-size: 13px;
+    }
+    .quotes-item-group .form-control,
+    .quotes-item-group .form-select {
+        padding: 8px 5px;
+    }
+    .add-consi-date-div {
+        margin-right: 25px;
+    }
+    .add-consi-refrence-div {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .sidebar {
+        width: 230px;
+    }
+    .small-sidebar {
+        width: 73px;
+    }
+    .header,
+    .signit-main {
+        width: calc(100% - 230px);
+    }
+    .big-signit-main,
+    .big-signit-main .header {
+        width: calc(100% - 73px);
+    }
+    .signit-body {
+        padding: 20px;
+    }
+    .toggle-btn {
+        margin-right: 20px;
+    }
+    .search-group {
+        min-width: 350px;
+    }
+    a.list-top-btn {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 6px 12px;
+        margin-right: 5px;
+    }
+    .delete-pegi-main {
+        margin-top: 40px;
+    }
+    .consignments-box {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .consignments-box h4 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }
+    .consignments-box aside {
+        font-size: 26px;
+        line-height: 39px;
+        margin-bottom: 15px;
+    }
+    .monthly-div {
+        margin-bottom: 15px;
+    }
+    .shipment-box {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .ship-det-img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .ship-det-inner aside {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }
+    .ship-det-inner p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .shipment-detail {
+        margin-bottom: 20px;
+    }
+    .ship-bg-img {
+        width: 70px;
+    }
+    .shipment-chart {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    #revenue-pie-chart .apexcharts-canvas {
+        transform: translateX(-10%);
+    }
+    .big-signit-main #revenue-pie-chart .apexcharts-canvas {
+        transform: translateX(0%);
+    }
+    .revenue-box {
+        overflow: hidden;
+    }
+    .comn-from-to input {
+        margin-right: 5px;
+    }
+    .login-data {
+        padding: 50px;
+    }
+    .login-image img {
+        width: 92%;
+    }
+    .range-box label {
+        margin-left: 15px;
+    }
+    .range-box p {
+        padding-left: 15px;
+        border-bottom: none;
+        border-top: 1px solid #DDDDDD;
+    }
+    .range-box label {
+        margin: 10px;
+    }
+    .edit-cust-content .accordion-body {
+        padding: 50px 30px 20px;
+    }
+    .add-service-btn {
+        margin: 20px -30px;
+    }
+    .carrier-service-row {
+        flex-wrap: wrap;
+    }
+    .carrier-service-row .comn-form-group {
+        width: 31%;
+    }
+    .range-service-detail {
+        flex-wrap: initial;
+        overflow-y: auto;
+    }
+    .range-box {
+        min-width: 180px;
+    }
+    .carrier-radio-check {
+        flex-wrap: wrap;
+    }
+    .carrier-radio-check .carrier-label {
+        margin-bottom: 15px;
+    }
+    .range-min-max {
+        padding-top: 47px;
+    }
+    .form-label {
+        font-size: 12px;
+    }
+    .comn-form-group .form-label {
+        margin-bottom: -9px;
+        margin-left: 15px;
+    }
+    .form-control,
+    .form-select {
+        padding: 15px;
+    }
+    .carrier-label {
+        padding: 25px 15px 8px;
+    }
+    .setting-checkbox {
+        padding: 0;
+    }
+    .ticket-status-detail {
+        width: 100%;
+    }
+    .ticket-status-buttons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .ticket-status-buttons button {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .ticket-status-buttons input {
+        width: 250px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .ticket-result-status-label {
+        flex-wrap: wrap;
+    }
+    .ticket-result-status-label .list-result-div {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    .ticket-table table th {
+        min-width: 170px;
+    }
+    .internal-ticket-table th {
+        min-width: 150px;
+    }
+    .form-select {
+        background-position: right 10px center;
+        padding-right: 25px;
+    }
+    .comn-datepicker {
+        background-position: right 15px center;
+        padding-right: 35px;
+    }
+    .consignments-assign-reminder,
+    .comn-chat-head {
+        flex-wrap: wrap;
+    }
+    .consignment-reminder-row {
+        margin-top: 15px;
+    }
+    .chat-head-checkbox-file-row {
+        margin-top: 10px;
+    }
+    .consignments-assign-reminder .comn-form-group {
+        min-width: 250px;
+    }
+    .consign-detail-column {
+        width: 50%;
+        flex-grow: 1;
+    }
+    .chat-head-checkbox-file-row {
+        flex-wrap: wrap;
+    }
+    .choose-file-box {
+        margin-top: 10px;
+    }
+    .chat-footer-btn-row button {
+        min-width: auto;
+        padding: 10px 25px;
+    }
+    .consign-detail-row-2 .consign-detail-box {
+        padding: 10px 10px 0px;
+    }
+    .consign-detail-row-2 .consign-detail-box ul li {
+        margin-right: 20px;
+    }
+    .carrier-invoice-list-body {
+        padding: 25px;
+    }
+    .carrier-templet-save .comn-form-group {
+        width: 70%;
+    }
+    .carrier-invoice-radio-row {
+        flex-wrap: wrap;
+        padding-bottom: 2px;
+    }
+    .carrier-invoice-radio-row label {
+        margin-bottom: 8px;
+        margin-right: 20px;
+    }
+    .invoice-no-modal .modal-dialog {
+        margin: 30px;
+    }
+    .invoice-form-row {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .invoice-form-column {
+        width: 50%;
+    }
+    .invoice-form-group {
+        margin-bottom: 2px;
+    }
+    .add-fees-form .comn-form-group-2 {
+        width: 30%;
+    }
+    .add-fees-form .comn-form-group-3 {
+        width: 40%;
+    }
+    .customer-invoice-main .list-main-head {
+        flex-wrap: wrap;
+    }
+    .date-myob {
+        margin-left: 12px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .add-quote-column {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .add-quote-column:first-child {
+        border-bottom: 1px solid #EEEEEE;
+        margin-bottom: 40px;
+    }
+    .add-quote-row::before {
+        display: none;
+    }
+    .quotes-item-group {
+        flex: 1 0 30%;
+    }
+    .summery-item-body {
+        max-width: 100%;
+    }
+    .add-consi-top {
+        min-height: auto;
+    }
+    .add-consi-address-form {
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .add-consi-modal .modal-dialog {
+        max-width: 90%;
+    }
+    .add-consi-middle p {
+        margin-bottom: 15px;
+    }
+    .add-consi-refrence-div {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .small-sidebar {
+        width: 53px;
+    }
+    .big-signit-main,
+    .big-signit-main .header {
+        width: calc(100% - 53px);
+    }
+    .small-sidebar:hover {
+        width: 230px;
+    }
+    .small-sidebar:hover~.big-signit-main,
+    .small-sidebar:hover~.big-signit-main .header {
+        width: calc(100% - 230px);
+    }
+    .search-group {
+        min-width: 250px;
+    }
+    .sidebarlist li a {
+        padding: 0px 10px;
+    }
+    .custom-menu li a {
+        padding: 6px 10px;
+        padding-left: 55px;
+    }
+    .custom-menu li a::before {
+        left: 45px;
+    }
+    .toggle-btn {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .profil-main {
+        margin-left: 15px;
+    }
+    .profil-main::before {
+        left: -15px;
+    }
+    .noti-main a {
+        margin-right: 15px;
+    }
+    .comn-title .title-text {
+        margin-bottom: 5px;
+    }
+    .comn-title {
+        margin-bottom: 20px;
+    }
+    a.list-top-btn {
+        padding: 6px 8px;
+        margin-right: 0;
+    }
+    .edit-cust-tabs {
+        margin-bottom: 10px;
+    }
+    .list-main-head h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 5px;
+    }
+    .list-main-head .search-group {
+        max-width: 200px;
+        min-width: auto;
+        padding: 6px 12px;
+    }
+    .edit-cust-tabs .nav-item {
+        margin-bottom: 5px;
+    }
+    .edit-cust-tabs .nav-link.active::before {
+        display: none;
+    }
+    .edit-cust-content .accordion-body {
+        padding: 40px 15px 15px;
+    }
+    .form-control,
+    .form-select,
+    .customer-rate-form-group .form-select {
+        padding: 10px 15px;
+    }
+    .cust-top-colum .form-select {
+        max-width: 220px;
+        padding: 10px 15px;
+    }
+    .comn-form-group .form-label {
+        margin-left: 15px;
+    }
+    .shipment-box {
+        display: inline-block;
+        width: 48%;
+        margin-right: 15px;
+    }
+    .shipment-box:last-child {
+        margin-right: 0;
+    }
+    .revenue-box {
+        width: 100%;
+    }
+    .from-to-export {
+        flex-wrap: wrap;
+    }
+    .export-main {
+        margin-top: 15px;
+    }
+    .login {
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+    .login-data {
+        width: 100%;
+        max-height: none;
+        overflow: auto;
+    }
+    .login-image {
+        display: none;
+    }
+    .carrier-service-row .comn-form-group {
+        width: 46.5%;
+    }
+    .carrier-delete-slide-btns {
+        width: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .carrier-delete-slide-btns button {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .carrier-label {
+        padding: 25px 15px 8px;
+    }
+    .setting-checkbox {
+        padding: 0;
+    }
+    .carrier-radio-check .carrier-label,
+    .carrier-radio-row {
+        flex-wrap: wrap;
+    }
+    .carrier-radio-check .carrier-label label {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .add-service-btn {
+        margin: 15px -15px;
+    }
+    .comn-btn {
+        padding: 6px 15px;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .add-new-carrier-content .comn-btn {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .edit-cust-tabs .nav-link {
+        border-radius: 0px;
+        border-bottom: 1px solid #ddd;
+    }
+    .edit-cust-tabs .nav-link.active {
+        border-radius: 5px;
+    }
+    .add-new-btn-div button {
+        font-size: 15px;
+        line-height: 17px;
+        padding: 6px 15px;
+        margin-right: 10px;
+    }
+    .add-new-carrier-content .next-cancel-div .comn-btn {
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .next-cancel-div .comn-btn:last-child {
+        margin-right: 0;
+    }
+    .ticket-status-box aside {
+        max-width: 120px;
+        font-size: 12px;
+    }
+    .ticket-status-box ul li {
+        padding: 3px 8px;
+    }
+    .ticket-status-buttons button {
+        padding: 5px 15px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 5px;
+    }
+    .ticket-status-buttons input {
+        width: 150px;
+        margin-right: 5px;
+        padding: 3px 10px;
+    }
+    .ticket-result-status-label ul {
+        flex-wrap: wrap;
+    }
+    .ticket-result-status-label ul li {
+        font-size: 12px;
+    }
+    .ticket-result-status-label ul li span {
+        width: 14px;
+        height: 14px;
+        margin-right: 2px;
+    }
+    .internal-position aside {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 2px 8px;
+    }
+    .form-select {
+        background-position: right 10px center;
+        padding-right: 25px;
+    }
+    .comn-datepicker {
+        background-position: right 15px center;
+        padding-right: 35px;
+    }
+    .consignment-assign-row {
+        flex-wrap: wrap;
+    }
+    .consign-detail-column {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .choose-file-box input {
+        min-width: 250px;
+    }
+    .chat-body-box {
+        max-width: 90%;
+    }
+    .comn-chat-footer {
+        flex-wrap: wrap;
+    }
+    .comn-chat-footer input {
+        flex: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .chat-footer-btn-row {
+        margin-left: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+    .consign-detail-row {
+        margin: 0;
+    }
+    .invoice-delete-cancle {
+        margin-top: 20px;
+    }
+    .carrier-invoice-no-body {
+        padding: 30px;
+    }
+    .result-serch-div {
+        flex-wrap: wrap;
+    }
+    .result-serch-div .checkbox-search {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .carrier-invoice-modal-body .comn-markup-div {
+        margin-bottom: 25px;
+    }
+    .add-fees-row {
+        border-bottom: 1px solid #00000030;
+        margin-bottom: 15px;
+    }
+    .add-fees-row:last-child {
+        border-bottom: none;
+    }
+    .add-fees-form {
+        flex-wrap: wrap;
+    }
+    .add-fees-form .comn-form-group {
+        width: 47%;
+    }
+    .add-fees-form .comn-form-group-2,
+    .add-fees-form .comn-form-group-3 {
+        width: 22%;
+    }
+    .add-fees-form .comn-form-group-2 .form-select,
+    .add-fees-form .comn-form-group-3 .form-control {
+        padding: 10px 15px;
+    }
+    .carrier-invoice-modal-body {
+        padding: 20px 25px;
+    }
+    .additional-fees h3,
+    .carrier-invoice-modal-body .add-service-btn {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    .carrier-invoice-modal-body .add-service-btn .comn-btn-3 {
+        right: 25px;
+    }
+    .date-myob {
+        margin-left: 5px;
+    }
+    .myob-book-btn-row {
+        margin-top: 10px;
+    }
+    .fees-margin-row>aside {
+        margin: 0px 15px 20px;
+        width: 100%;
+    }
+    .quotes-item-body {
+        padding-right: 0px;
+    }
+    .quotes-item-group label {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .summery-input-group {
+        gap: 15px;
+    }
+    .summery-input-group input {
+        width: auto;
+        flex: 1 0 0;
+    }
+    .add-consignment-body {
+        padding: 0px;
+    }
+    .add-consi-top aside input {
+        padding: 8px 15px;
+        max-width: 190px;
+    }
+    .add-consi-address-form {
+        padding: 40px 20px 20px;
+    }
+    .checkbox-search .list-top-btn {
+        margin-right: 10px;
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        width: 300px;
+        left: -100%;
+    }
+    .small-sidebar:hover {
+        width: 300px;
+    }
+    .small-sidebar:hover~.big-signit-main,
+    .small-sidebar:hover~.big-signit-main .header {
+        width: calc(100% - 300px);
+    }
+    .small-sidebar {
+        left: 0;
+        z-index: 9999;
+    }
+    .small-sidebar:hover {
+        width: 300px;
+    }
+    .background-black::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.2;
+        z-index: 999;
+    }
+    .header {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .header .logo {
+        display: flex;
+        min-height: auto;
+    }
+    .header .logo img {
+        width: 100px;
+    }
+    .toggle-serch-div {
+        order: 6;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .signit-body {
+        margin-top: 105px;
+    }
+    .header,
+    .signit-main,
+    .big-signit-main,
+    .big-signit-main .header,
+    .small-sidebar:hover~.big-signit-main,
+    .small-sidebar:hover~.big-signit-main .header {
+        width: 100%;
+    }
+    .small-sidebar .sidebarlist li {
+        flex-wrap: wrap;
+    }
+    .small-sidebar .custom-menu.show {
+        display: block !important;
+    }
+    .small-sidebar .sidebarlist li a span {
+        display: inline-flex;
+    }
+    .sidebarlist {
+        height: calc(100% - 77px);
+        padding-bottom: 10px;
+    }
+    .sidebar .toggle-btn {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        margin: 0;
+        width: 25px;
+        height: 25px;
+        color: rgb(88, 88, 90);
+        font-size: 14px;
+        display: flex;
+    }
+    .toggle-btn {
+        margin-right: 10px;
+    }
+    .search-group {
+        min-width: auto;
+        max-width: 250px;
+        padding: 10px;
+        width: 100%;
+    }
+    .search-group input {
+        margin-left: 5px;
+    }
+    .noti-main a {
+        margin-right: 10px;
+    }
+    .profil-main {
+        margin-left: 20px;
+    }
+    .profil-main::before {
+        left: -15px;
+    }
+    .profil-main {
+        width: 30px;
+        height: 30px;
+    }
+    .noti-main a img {
+        width: 15px;
+    }
+    .delete-pegi-main {
+        flex-wrap: wrap;
+    }
+    .delete-check a {
+        margin-bottom: 15px;
+    }
+    .delete-pegi-main {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .list-main-body {
+        padding: 10px;
+    }
+    .edit-cust-tabs {
+        padding-bottom: 0;
+    }
+    a.list-top-btn {
+        margin-right: 4px;
+        margin-bottom: 5px;
+    }
+    .list-main-head {
+        flex-wrap: wrap;
+    }
+    .list-main-head .search-group {
+        margin-top: 10px;
+        max-width: 250px;
+        width: 100%;
+    }
+    .list-result-div .form-select {
+        padding: 6px 10px;
+        max-width: 70px;
+        margin: 0px 5px;
+    }
+    .edit-cust-tabs .nav-link {
+        padding: 7px 13px;
+    }
+    .cust-top-colum {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .cust-top-colum .form-select {
+        max-width: 100%;
+        margin-top: 5px;
+        padding: 10px 15px;
+    }
+    .edit-cust-content .accordion-body {
+        padding-bottom: 0;
+    }
+    .shipment-box {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .chart-head {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .chart-head aside {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .shipment-chart .monthly-div {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    #revenue-pie-chart .apexcharts-canvas {
+        transform: none;
+    }
+    .shipment-chart {
+        overflow: hidden;
+    }
+    .shipment-chart .ship-bar-chart {
+        margin-bottom: -30px;
+    }
+    .result-serch-div {
+        flex-wrap: wrap;
+    }
+    .quotes-main .list-main-head h2 {
+        margin-bottom: 0px;
+    }
+    .comn-success-alert {
+        padding: 10px 12px;
+    }
+    .alert-detail p {
+        font-size: 12px;
+    }
+    .login-data {
+        text-align: center;
+        padding: 20px;
+    }
+    .carrier-service-row .comn-form-group {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .range-box {
+        min-width: 150px;
+    }
+    .carrier-radio-row label {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .carrier-radio-row {
+        padding-bottom: 0;
+    }
+    .add-new-carrier-content .comn-btn {
+        margin-right: 5px;
+    }
+    .ticket-status-row {
+        padding: 15px;
+    }
+    .ticket-status-box {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+    .ticket-status-box aside {
+        max-width: max-content;
+        font-size: 14px;
+        text-align: left;
+        display: table;
+        margin-bottom: 5px;
+    }
+    .ticket-status-buttons {
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .comn-table table thead {
+        height: 55px;
+    }
+    .comn-table table th,
+    .comn-table table td {
+        font-size: 12px;
+    }
+    .table-check,
+    .table-check:focus {
+        width: 12px;
+        height: 12px;
+    }
+    .internal-ticket-table th {
+        min-width: 140px;
+    }
+    .consign-detail-box {
+        padding: 0px 15px 15px;
+    }
+    .consign-detail-box h5 {
+        margin-bottom: 10px;
+    }
+    .consign-detail-row {
+        padding: 10px 10px 0px;
+    }
+    .consign-btn-row {
+        margin: 0px 10px 10px;
+    }
+    .chat-head-btn-row {
+        flex-wrap: wrap;
+    }
+    .chat-head-checkbox {
+        flex-wrap: wrap;
+    }
+    .choose-file-box {
+        flex-wrap: wrap;
+        gap: 5px;
+        width: 100%;
+    }
+    .choose-file-box input {
+        margin-right: 0px;
+        width: auto;
+        min-width: auto;
+        max-width: 50%;
+    }
+    .chat-body-box ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .carrier-invoice-no-body {
+        padding: 20px;
+    }
+    .invoice-no-modal .nav-tabs {
+        margin-bottom: 10px;
+    }
+    .invoice-no-modal .nav-tabs .nav-link {
+        margin-bottom: 5px;
+    }
+    .carrier-invoice-modal-body {
+        padding: 15px;
+    }
+    .additional-fees h3,
+    .carrier-invoice-modal-body .add-service-btn {
+        margin-left: -15px;
+        margin-right: -15px;
+        flex-wrap: wrap;
+    }
+    .carrier-invoice-modal-body .add-service-btn {
+        margin-bottom: 0px;
+    }
+    .carrier-invoice-modal-body .add-service-btn .comn-btn-3 {
+        right: 15px;
+    }
+    .comn-form-group {
+        margin-bottom: 15px;
+    }
+    .carrier-templet-save {
+        margin: 20px 0px 20px;
+    }
+    .carrier-invoice-modal-body .comn-markup-div {
+        margin-bottom: 15px;
+        margin-right: 10px;
+    }
+    .comn-markup-div span {
+        padding: 5px 12px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .invoice-no-modal .modal-dialog {
+        margin: 10px;
+    }
+    .invoice-form-column {
+        width: 100%;
+    }
+    .invoice-form-group {
+        margin-bottom: 0;
+    }
+    .invoice-form-group .form-control {
+        width: calc(100% - 85px);
+    }
+    .invoice-form-group label {
+        width: 80px;
+    }
+    .add-fees-form .comn-form-group {
+        width: 100%;
+        margin-right: 0;
+    }
+    .add-fees-form .comn-form-group-2,
+    .add-fees-form .comn-form-group-3 {
+        width: 47%;
+    }
+    .add-fees-form .comn-form-group-3 {
+        margin-left: auto;
+    }
+    .invoice-date label {
+        margin-right: 10px;
+    }
+    .add-quote-list li input,
+    .add-quote-list li .form-select {
+        width: calc( 100% - 110px);
+    }
+    .add-quote-list li label {
+        width: 100px;
+        font-size: 14px;
+    }
+    .quotes-item-detail {
+        gap: 10px;
+        padding: 10px;
+    }
+    .quotes-yes-no-group {
+        padding: 0px;
+    }
+    .quotes-item-head {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .add-consi-top {
+        margin-bottom: 10px;
+    }
+    .add-consi-delete-pegi {
+        margin-bottom: 30px;
+    }
+    .add-consi-save-modal-body {
+        padding: 15px 0px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .delete-pegi-main {
+        justify-content: center;
+    }
+    .comn-from-to input {
+        max-width: 135px;
+    }
+    .result-serch-div .search-group {
+        margin-top: 10px;
+    }
+    .add-new-carrier-content .next-cancel-div .comn-btn {
+        margin-top: 10px;
+    }
+    .ticket-status-buttons button,
+    .ticket-status-buttons button:last-child,
+    .ticket-status-buttons input {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .consignments-assign-reminder .comn-form-group {
+        min-width: 100%;
+    }
+    .consignment-reminder-row {
+        width: 100%;
+    }
+    .consignment-reminder-row .comn-form-group {
+        min-width: auto;
+        width: 100%;
+    }
+    .chat-head-btn-row .comn-btn {
+        margin-bottom: 5px;
+        width: 100%;
+        justify-content: center;
+    }
+    .choose-file-box input {
+        width: 100%;
+        max-width: 100%;
+    }
+    .comn-chat-body {
+        height: 300px;
+    }
+    .chat-body-box {
+        padding: 10px 15px;
+    }
+    .chat-footer-btn-row {
+        gap: 5px;
+    }
+    .chat-footer-btn-row button {
+        flex-grow: 1;
+        margin: 0;
+    }
+    .manual-invoice-radio {
+        margin-bottom: 5px;
+    }
+    .manual-invoice-radio:last-child {
+        margin-bottom: 0;
+    }
+    .carrier-invoice-modal-body .add-service-btn .comn-btn-3 {
+        position: initial;
+    }
+    .carrier-invoice-modal-body .add-service-btn .comn-btn-3 {
+        position: initial;
+        margin-top: 20px;
+    }
+    .add-service-btn::before {
+        top: 18%;
+    }
+    .carrier-invoice-modal-body .add-service-btn a {
+        margin: 0px 3px;
+    }
+    .carrier-invoice-list li aside {
+        flex-basis: 180px;
+        margin-right: 0;
+    }
+    .fees-margin-ckeckbox,
+    .fees-margin-column {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .quotes-head-btn {
+        margin-top: 10px;
+    }
+    .quotes-head-btn a {
+        margin-bottom: 0;
+    }
+    .quotes-item-group {
+        flex: 1 0 45%;
+    }
+    .add-consi-bottom label {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .add-consi-top aside {
+        margin-top: 10px;
+    }
+    .add-consi-date-div {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .add-consi-modal .modal-header {
+        padding-right: 15px;
+    }
+    .add-consi-modal .btn-close {
+        width: 16px;
+    }
+    .add-consi-modal .modal-dialog {
+        max-width: 95%;
+        margin: 20px auto;
+    }
+    .add-consi-address-form {
+        padding: 40px 15px 15px;
+    }
+}
